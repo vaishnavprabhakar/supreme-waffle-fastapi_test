@@ -14,4 +14,5 @@ async def index():
     data = {
         'msg': 'This is just fast...'
     }
+    print(type(data))
     return data
